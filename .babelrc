@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "es2015",
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-runtime", 
+    "babel-plugin-transform-regenerator",
+    "babel-plugin-transform-es2015-modules-commonjs",
+    [
+      "import",
+      {
+        "libraryName": "antd-mobile",
+        "style": "css"
+      }
+    ]
+  ]
+}

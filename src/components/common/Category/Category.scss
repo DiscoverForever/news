@@ -1,0 +1,21 @@
+.category-wrapper {
+  height: 80px;
+  width: 100%;
+  flex: 0 0 80px;
+  background: #fff;
+  overflow-y: hidden;
+  color: #000;
+  white-space: nowrap;
+  border-bottom: 1px solid #f2f2f2;
+  &::-webkit-scrollbar {
+    display: none;
+  } 
+  .category-item {
+    display: inline-block;
+    height: 80px;
+    width: 100px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 26px;
+  }
+}

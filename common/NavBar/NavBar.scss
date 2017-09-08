@@ -1,0 +1,26 @@
+.nav-wrapper{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0.5rem;
+  width: 100%;
+}
+ul {
+  width: 100%;
+  height: 0.5rem;
+  white-space: nowrap;
+  background: #fff;
+  border-top: 1px solid #f2f2f2;
+}
+ul::after {
+  content: '';
+  clear: both;
+}
+li {
+  display: block;
+  float: left;
+  width: 25%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+}  
